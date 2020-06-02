@@ -1,9 +1,11 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 body {
   width: 100%;
   max-width: 100%;
+  text-align: center;
+  
 }
 .head {
   display: flex;
@@ -144,7 +146,7 @@ nav-bar ul li a:active {
 /* help section */
 
 .help {
-  margin: 5px;
+  margin: 20px;
   border: 2px solid white;
 }
 
@@ -162,8 +164,9 @@ nav-bar ul li a:active {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 100%;
-  box-shadow: 5px 5px 5px 5px grey;
+  width: 30%;
+  position: relative;
+  box-shadow: 5px 5px 5px 5px rgb(197, 192, 192);
   height: 10em;
 }
 
@@ -225,6 +228,7 @@ nav-bar ul li a:active {
   display: flex;
   justify-content: space-between;
   align-content: space-between;
+
 }
 
 .col-1 {
@@ -252,6 +256,7 @@ nav-bar ul li a:active {
   border-radius: 20px;
   background-color: rgb(243, 240, 247);
   padding: 10px;
+  height: 150px;
 }
 
 .card:hover {
@@ -273,7 +278,7 @@ nav-bar ul li a:active {
 /* integrations */
 .software {
   display: block;
-  background-color: rgb(244, 250, 249);
+ width: 100%;
   padding-top: 30px;
 }
 .software-detail {
@@ -298,7 +303,7 @@ nav-bar ul li a:active {
   flex: 0 0 30%;
 }
 .col-3 img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 .col-4 {
